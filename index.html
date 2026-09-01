@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shamil Lodhi — Full-Stack Developer Portfolio</title>
+<meta name="description" content="Portfolio of Shamil Lodhi, full-stack developer. Open to work — services, skills, projects, experience and contact.">
+<link rel="icon" type="image/jpeg" href="images/profile.jpg">
+<meta property="og:title" content="Shamil Lodhi — Full-Stack Developer Portfolio">
+<meta property="og:description" content="Full-stack developer building fast, accessible software. Open to full-time and contract roles.">
+<meta property="og:image" content="images/profile.jpg">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== LOADING SCREEN ===================== -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-mark">SL</div>
+  <div class="loader-bar"><span></span></div>
+</div>
+
+<!-- ===================== FLOATING SOCIAL BAR ===================== -->
+<aside class="social-bar" aria-label="Social media links">
+  <a href="#" aria-label="LinkedIn" title="LinkedIn">in</a>
+  <a href="https://github.com/shamillodhiI" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">gh</a>
+  <a href="https://www.instagram.com/shamillodhiii/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">ig</a>
+  <a href="https://www.facebook.com/profile.php?id=61572355447679" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">fb</a>
+  <a href="#" aria-label="Indeed" title="Indeed">id</a>
+  <a href="#" aria-label="X / Twitter" title="X (Twitter)">x</a>
+  <a href="mailto:shamillodhi@gmail.com" aria-label="Email" title="Email">@</a>
+  <span class="social-bar-line" aria-hidden="true"></span>
+</aside>
+
+<!-- ===================== NAV ===================== -->
+<header class="site-header">
+  <nav class="navbar" aria-label="Primary">
+    <a href="#top" class="brand"><span class="logo-badge">SL</span>Shamil<span>Lodhi</span></a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Toggle menu</span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services" data-nav>Services</a></li>
+      <li><a href="#about" data-nav>About</a></li>
+      <li><a href="#skills" data-nav>Skills</a></li>
+      <li><a href="#projects" data-nav>Projects</a></li>
+      <li><a href="#experience" data-nav>Experience</a></li>
+      <li><a href="#certificates" data-nav>Certificates</a></li>
+      <li><a href="#testimonials" data-nav>Testimonials</a></li>
+      <li><a href="#contact" data-nav>Contact</a></li>
+      <li class="mobile-cv"><a href="./resume.pdf" download>Download CV</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light mode">
+        <span class="theme-icon icon-sun" aria-hidden="true">☀</span>
+        <span class="theme-icon icon-moon" aria-hidden="true">☾</span>
+      </button>
+      <a href="./resume.pdf" class="btn btn-primary btn-small" download>Download CV</a>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy hero-title-box" id="heroTitleBox">
+        <p class="eyebrow">Available for new roles</p>
+        <h1>Hi, I'm Shamil Lodhi.<br>I build <span class="typing-wrap"><span id="typingText"></span><span class="typing-caret" aria-hidden="true"></span></span></h1>
+        <p class="hero-lead">Full-stack developer with 6 years of experience turning product requirements into fast, accessible, well-tested software — from first commit to production rollout.</p>
+        <div class="hero-actions">
+          <a href="./resume.pdf" class="btn btn-primary" download>Download CV</a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </div>
+        <p class="hero-status"><span class="status-dot" aria-hidden="true"></span> Open to full-time &amp; contract roles</p>
+      </div>
+
+      <div class="hero-visual">
+        <div class="terminal">
+          <div class="terminal-bar">
+            <button class="dot soft-sage active-dot" data-accent="gold" aria-label="Sage accent" title="Sage"></button>
+            <button class="dot soft-blue" data-accent="blue" aria-label="Ocean blue accent" title="Ocean Blue"></button>
+            <button class="dot soft-lavender" data-accent="rose" aria-label="Dusty lavender accent" title="Lavender"></button>
+            <span class="terminal-title">shamil@portfolio ~ about.json</span>
+          </div>
+          <div class="terminal-body">
+<span class="key">"name"</span>: <span class="str">"Shamil Lodhi"</span>,<br>
+<span class="key">"role"</span>: <span class="str">"Full-Stack Developer"</span>,<br>
+<span class="key">"experience"</span>: <span class="str">"6+ years"</span>,<br>
+<span class="key">"stack"</span>: [<span class="str">"React"</span>, <span class="str">"Node.js"</span>, <span class="str">"PostgreSQL"</span>],<br>
+<span class="key">"location"</span>: <span class="str">"Multan, Pakistan"</span>,<br>
+<span class="key">"status"</span>: <span class="str">"open to work"</span><span class="cursor"></span>
+          </div>
+        </div>
+        <div class="hero-badge hero-badge-1">6+ yrs experience</div>
+        <div class="hero-badge hero-badge-2">40+ projects shipped</div>
+      </div>
+    </div>
+    <a href="#stats" class="scroll-cue" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ===================== STATS COUNTER ===================== -->
+  <section class="stats" id="stats">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <span class="stat-number" data-target="6" data-suffix="+">0</span>
+        <span class="stat-label">Years Experience</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="42" data-suffix="+">0</span>
+        <span class="stat-label">Projects Completed</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="30" data-suffix="+">0</span>
+        <span class="stat-label">Happy Clients</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="12" data-suffix="">0</span>
+        <span class="stat-label">Certifications</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="avatar-box">
+        <div class="avatar-ring">
+          <div class="avatar"><img src="images/profile.jpg" alt="Shamil Lodhi"></div>
+        </div>
+      </div>
+      <div>
+        <p class="eyebrow">Get To Know Me</p>
+        <h2 class="section-title">About</h2>
+        <p class="about-bio">I'm a full-stack developer based in Multan, Pakistan, focused on turning product requirements into fast, accessible, well-tested software — from first commit to production rollout. I care as much about the developer experience of a codebase as I do about the end-user experience of the product.</p>
+        <div class="fact-grid">
+          <div class="fact"><span>Location</span><b>Multan, Pakistan</b></div>
+          <div class="fact"><span>Experience</span><b>6+ years</b></div>
+          <div class="fact"><span>Availability</span><b>Open to work</b></div>
+          <div class="fact"><span>Focus</span><b>Web &amp; Backend</b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="section" id="services">
+    <div class="container">
+      <p class="eyebrow center">What I Do</p>
+      <h2 class="section-title center">Services</h2>
+      <p class="section-sub center">A few ways I can help your team ship — end to end or wherever you need an extra pair of hands.</p>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon">◧</div>
+          <h3>Web Development</h3>
+          <p>Responsive, accessible websites and web apps built with modern frameworks and clean, maintainable code.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">◨</div>
+          <h3>UI / UX Design</h3>
+          <p>Wireframes to polished interfaces — designing flows that are intuitive first and good-looking second.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">⚙</div>
+          <h3>API &amp; Backend</h3>
+          <p>Reliable REST and GraphQL APIs, database design, and integrations that hold up under real traffic.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">⌁</div>
+          <h3>Performance Audits</h3>
+          <p>Finding what's actually slowing your app down and fixing it — load times, bundle size, rendering.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">◎</div>
+          <h3>Code Review &amp; Mentoring</h3>
+          <p>Structured reviews and pairing sessions that help teams and junior developers level up together.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">☁</div>
+          <h3>Deployment &amp; DevOps</h3>
+          <p>CI/CD pipelines, containerization, and cloud infrastructure so releases stop being an event.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS (animated progress bars) ===================== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <p class="eyebrow center">Toolkit</p>
+      <h2 class="section-title center">Skills</h2>
+      <p class="section-sub center">Proficiency is self-rated and approximate — happy to go deeper on any of these in an interview.</p>
+
+      <div class="skills-grid">
+        <div class="skill-col">
+          <div class="skill-bar" data-percent="92">
+            <div class="skill-bar-head"><span>JavaScript / TypeScript</span><span class="skill-percent">0%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-percent="88">
+            <div class="skill-bar-head"><span>React / Next.js</span><span class="skill-percent">0%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-percent="80">
+            <div class="skill-bar-head"><span>Node.js</span><span class="skill-percent">0%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-percent="75">
+            <div class="skill-bar-head"><span>PostgreSQL / SQL</span><span class="skill-percent">0%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+        </div>
+        <div class="skill-col">
+          <div class="skill-bar" data-percent="85">
+            <div class="skill-bar-head"><span>HTML / CSS</span><span class="skill-percent">0%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-percent="70">
+            <div class="skill-bar-head"><span>UI / UX Design</span><span class="skill-percent">0%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-percent="65">
+            <div class="skill-bar-head"><span>Docker / AWS</span><span class="skill-percent">0%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+          <div class="skill-bar" data-percent="78">
+            <div class="skill-bar-head"><span>Testing (Jest / Playwright)</span><span class="skill-percent">0%</span></div>
+            <div class="skill-track"><div class="skill-fill"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS (filterable) ===================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <p class="eyebrow center">Selected Work</p>
+      <h2 class="section-title center">Projects</h2>
+
+      <div class="filter-bar" role="tablist" aria-label="Filter projects by category">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-btn" data-filter="web" role="tab" aria-selected="false">Web Apps</button>
+        <button class="filter-btn" data-filter="mobile" role="tab" aria-selected="false">Mobile</button>
+        <button class="filter-btn" data-filter="design" role="tab" aria-selected="false">UI / UX</button>
+        <button class="filter-btn" data-filter="opensource" role="tab" aria-selected="false">Open Source</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+        <article class="project-card" data-category="web">
+          <div class="project-thumb thumb-1"><span>Ledgerly</span></div>
+          <div class="project-body">
+            <h3>Ledgerly</h3>
+            <p>Real-time expense splitting app for small groups, built on React and WebSockets.</p>
+            <ul class="tag-list"><li>React</li><li>Node.js</li><li>PostgreSQL</li></ul>
+            <div class="project-links"><a href="#">Live demo</a><a href="#">Source</a></div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="mobile">
+          <div class="project-thumb thumb-2"><span>RouteWise</span></div>
+          <div class="project-body">
+            <h3>RouteWise</h3>
+            <p>Delivery route optimizer that cut a 12-driver fleet's average route time by 18%.</p>
+            <ul class="tag-list"><li>React Native</li><li>Go</li><li>Mapbox</li></ul>
+            <div class="project-links"><a href="#">Case study</a><a href="#">Source</a></div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="design">
+          <div class="project-thumb thumb-3"><span>Nightwatch</span></div>
+          <div class="project-body">
+            <h3>Nightwatch UI Kit</h3>
+            <p>A dark-mode-first component library and design system used across three internal products.</p>
+            <ul class="tag-list"><li>Figma</li><li>Storybook</li><li>Design Systems</li></ul>
+            <div class="project-links"><a href="#">View kit</a></div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="opensource">
+          <div class="project-thumb thumb-4"><span>tail-cli</span></div>
+          <div class="project-body">
+            <h3>tail-cli</h3>
+            <p>Open-source log-tailing tool with configurable alert rules, ~600 GitHub stars.</p>
+            <ul class="tag-list"><li>Go</li><li>CLI</li><li>SQLite</li></ul>
+            <div class="project-links"><a href="#">Repository</a></div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="web">
+          <div class="project-thumb thumb-5"><span>Checkout Kit</span></div>
+          <div class="project-body">
+            <h3>Checkout Kit</h3>
+            <p>Embeddable checkout widget adopted by 40+ merchant sites, rebuilt as a Web Component.</p>
+            <ul class="tag-list"><li>TypeScript</li><li>Web Components</li><li>Stripe</li></ul>
+            <div class="project-links"><a href="#">Docs</a><a href="#">Source</a></div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="mobile">
+          <div class="project-thumb thumb-6"><span>Fitloop</span></div>
+          <div class="project-body">
+            <h3>Fitloop</h3>
+            <p>Habit-tracking mobile app with offline-first sync, 15k+ downloads.</p>
+            <ul class="tag-list"><li>Flutter</li><li>Firebase</li></ul>
+            <div class="project-links"><a href="#">App Store</a></div>
+          </div>
+        </article>
+      </div>
+
+      <p class="filter-empty" id="filterEmpty" hidden>No projects in this category yet — check back soon.</p>
+
+      <div class="work-ticker-wrap">
+        <p class="work-ticker-label">Quick browse — hover to pause</p>
+        <div class="work-ticker" id="workTicker">
+          <div class="work-ticker-track" id="workTickerTrack"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIENCE TIMELINE ===================== -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <p class="eyebrow center">Career Path</p>
+      <h2 class="section-title center">Experience</h2>
+
+      <ol class="timeline" id="experienceTimeline">
+        <li class="tl-item">
+          <div class="tl-head">
+            <h3>Senior Full-Stack Engineer, Fintrace</h3>
+            <span class="tl-date">2023 — Present <span class="tl-toggle-icon">▾</span></span>
+          </div>
+          <div class="tl-detail">
+            <div class="tl-detail-card">Leading the payments platform team; own architecture decisions for a system processing 2M+ transactions monthly.</div>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-head">
+            <h3>Full-Stack Engineer, Fintrace</h3>
+            <span class="tl-date">2021 — 2023 <span class="tl-toggle-icon">▾</span></span>
+          </div>
+          <div class="tl-detail">
+            <div class="tl-detail-card">Joined as engineer #6; built Checkout Kit v1 and the internal design system from scratch.</div>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-head">
+            <h3>Frontend Developer, Marlow Studio</h3>
+            <span class="tl-date">2019 — 2021 <span class="tl-toggle-icon">▾</span></span>
+          </div>
+          <div class="tl-detail">
+            <div class="tl-detail-card">Rebuilt the agency's flagship marketing site, improving Time-to-Interactive by 40%.</div>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-head">
+            <h3>Freelance Web Developer</h3>
+            <span class="tl-date">2018 — 2019 <span class="tl-toggle-icon">▾</span></span>
+          </div>
+          <div class="tl-detail">
+            <div class="tl-detail-card">Delivered WordPress and static sites for a dozen local small businesses.</div>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-head">
+            <h3>B.S. Computer Science, Georgia State University</h3>
+            <span class="tl-date">2018 <span class="tl-toggle-icon">▾</span></span>
+          </div>
+          <div class="tl-detail">
+            <div class="tl-detail-card">Graduated with a focus on distributed systems and human-computer interaction.</div>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===================== CERTIFICATES GALLERY ===================== -->
+  <section class="section" id="certificates">
+    <div class="container">
+      <p class="eyebrow center">Credentials</p>
+      <h2 class="section-title center">Certificates</h2>
+
+      <div class="cert-grid" id="certGrid">
+        <button class="cert-card" data-title="AWS Certified Solutions Architect" data-issuer="Amazon Web Services" data-date="Issued March 2024">
+          <span class="cert-seal">☁</span>
+          <span class="cert-name">AWS Certified Solutions Architect</span>
+          <span class="cert-issuer">Amazon Web Services</span>
+        </button>
+        <button class="cert-card" data-title="Professional Scrum Master I" data-issuer="Scrum.org" data-date="Issued November 2022">
+          <span class="cert-seal">◎</span>
+          <span class="cert-name">Professional Scrum Master I</span>
+          <span class="cert-issuer">Scrum.org</span>
+        </button>
+        <button class="cert-card" data-title="Meta Front-End Developer" data-issuer="Meta / Coursera" data-date="Issued July 2021">
+          <span class="cert-seal">◧</span>
+          <span class="cert-name">Meta Front-End Developer</span>
+          <span class="cert-issuer">Meta / Coursera</span>
+        </button>
+        <button class="cert-card" data-title="Certified Kubernetes Application Developer" data-issuer="Cloud Native Computing Foundation" data-date="Issued January 2023">
+          <span class="cert-seal">⚙</span>
+          <span class="cert-name">Kubernetes Application Developer</span>
+          <span class="cert-issuer">CNCF</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificate lightbox modal -->
+  <div class="modal-backdrop" id="certModal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="certModalTitle">
+      <button class="modal-close" id="certModalClose" aria-label="Close">✕</button>
+      <span class="cert-seal cert-seal-lg" id="certModalSeal">☁</span>
+      <h3 id="certModalTitle"></h3>
+      <p id="certModalIssuer"></p>
+      <p class="modal-date" id="certModalDate"></p>
+    </div>
+  </div>
+
+  <!-- ===================== TESTIMONIALS SLIDER ===================== -->
+  <section class="section section-alt" id="testimonials">
+    <div class="container">
+      <p class="eyebrow center">What People Say</p>
+      <h2 class="section-title center">Testimonials</h2>
+
+      <div class="slider" id="testimonialSlider">
+        <div class="slider-track" id="sliderTrack">
+          <blockquote class="slide">
+            <p>"Shamil shipped our payments rewrite ahead of schedule and left the codebase better documented than they found it. Rare combination of speed and care."</p>
+            <footer><strong>Priya Nair</strong> — VP Engineering, Fintrace</footer>
+          </blockquote>
+          <blockquote class="slide">
+            <p>"One of the few engineers I've worked with who pushes back on scope in a way that actually makes the product better."</p>
+            <footer><strong>Marcus Webb</strong> — Product Lead, Marlow Studio</footer>
+          </blockquote>
+          <blockquote class="slide">
+            <p>"Turned a vague 'make it faster' request into a concrete performance plan, then executed it. Our TTI dropped by 40%."</p>
+            <footer><strong>Elena Ruiz</strong> — Founder, RouteWise</footer>
+          </blockquote>
+          <blockquote class="slide">
+            <p>"Great communicator, even better mentor. Junior engineers on the team actively asked to be paired with them."</p>
+            <footer><strong>Daniel Osei</strong> — Engineering Manager, Fintrace</footer>
+          </blockquote>
+        </div>
+
+        <button class="slider-arrow slider-prev" id="sliderPrev" aria-label="Previous testimonial">‹</button>
+        <button class="slider-arrow slider-next" id="sliderNext" aria-label="Next testimonial">›</button>
+        <div class="slider-dots" id="sliderDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <p class="eyebrow">Let's Connect</p>
+        <h2 class="section-title">Get in touch</h2>
+        <p class="section-sub">Open to full-time roles, contract work, or just a conversation about something you're building.</p>
+
+        <ul class="contact-info">
+          <li><span>Email</span><a href="mailto:shamillodhi@gmail.com">shamillodhi@gmail.com</a><button type="button" class="copy-btn" id="copyEmailBtn">Copy</button></li>
+          <li><span>Phone</span><a href="tel:+923191491324">+923191491324</a></li>
+          <li><span>Location</span><a>Multan, Punjab, Pakistan</a></li>
+          <li><span>Status</span><a class="status-available"><span class="status-dot" aria-hidden="true"></span>Available now</a></li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" name="name" required>
+          <span class="form-error" id="err-name"></span>
+        </div>
+        <div class="form-group">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" required>
+          <span class="form-error" id="err-email"></span>
+        </div>
+        <div class="form-group">
+          <label for="cf-subject">Subject</label>
+          <input type="text" id="cf-subject" name="subject" required>
+          <span class="form-error" id="err-subject"></span>
+        </div>
+        <div class="form-group">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="5" required></textarea>
+          <span class="form-error" id="err-message"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send message</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col footer-brand">
+      <a href="#top" class="brand"><span class="logo-badge">SL</span>Shamil<span>Lodhi</span></a>
+      <p>Full-stack developer building fast, accessible software — and always happy to talk shop.</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="https://github.com/shamillodhiI" target="_blank" rel="noopener" aria-label="GitHub">gh</a>
+        <a href="https://www.instagram.com/shamillodhiii/" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
+        <a href="https://www.facebook.com/profile.php?id=61572355447679" target="_blank" rel="noopener" aria-label="Facebook">fb</a>
+        <a href="#" aria-label="Indeed">id</a>
+        <a href="#" aria-label="X / Twitter">x</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#services">Web Development</a></li>
+        <li><a href="#services">UI / UX Design</a></li>
+        <li><a href="#services">API &amp; Backend</a></li>
+        <li><a href="#services">Deployment &amp; DevOps</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Get in touch</h4>
+      <ul>
+        <li><a href="mailto:shamillodhi@gmail.com">shamillodhi@gmail.com</a></li>
+        <li><a href="tel:+923191491324">+923191491324</a></li>
+        <li><a href="./resume.pdf" download>Download CV</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>© <span id="year"></span> Shamil Lodhi. All rights reserved.</p>
+    <p class="visitor-counter">Visitors: <span id="visitorCount">—</span></p>
+  </div>
+</footer>
+
+<!-- ===================== SCROLL TO TOP ===================== -->
+<button class="scroll-top" id="scrollTop" aria-label="Scroll to top" hidden>↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
